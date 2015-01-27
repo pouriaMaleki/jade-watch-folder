@@ -1,18 +1,15 @@
 {
   "name": "jade-watch-folder",
   "preferGlobal": true,
-  "version": "0.1.1",
-  "author": {
-    "name": "pouriaMaleki",
-    "email": "dev.maleki@gmail.com"
-  },
+  "version": "0.1.2",
+  "author": "pouriaMaleki <dev.maleki@gmail.com>",
   "description": "jade static HTML watcher",
   "homepage": "http://github.com/pouriaMaleki/jade-watch-folder",
   "repository": {
     "type": "git",
     "url": "git://github.com/pouriaMaleki/jade-watch-folder"
   },
-  "main": "./lib/jade-watch",
+  "main": "./lib/jade-watch-folder",
   "keywords": [
     "cli",
     "jade",
@@ -22,7 +19,7 @@
     "jadewatcher"
   ],
   "bin": {
-    "jade-watch-folder": "./bin/jade-watch"
+    "jade-watch-folder": "./bin/jade-watch-folder"
   },
   "dependencies": {
     "colors": "*",
@@ -35,11 +32,9 @@
       "type": "MIT"
     }
   ],
-  "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/pouriaMaleki/jade-watch-folder/issues"
   },
-  "_id": "jade-watch-folder@0.1.1",
   "_from": "jade-watch-folder@",
   "_npmVersion": "1.3.11",
   "_npmUser": {
@@ -47,10 +42,12 @@
     "email": "dev.maleki@gmail.com"
   },
   "maintainers": [
-    {
-      "name": "pouriaMaleki",
-      "email": "dev.maleki@gmail.com"
-    }
+    "pouriaMaleki <dev.maleki@gmail.com>"
   ],
-  "directories": {}
+  "directories": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
 }
